@@ -1,12 +1,14 @@
 import React from 'react';
 
 import ReactDOM from 'react-dom';
-import Home from './components/home'
+import Zj from './components/zj'
 class App extends React.Component{
 	
 	render(){
 		return(
 			<div className="home">
+			
+			<section>
 			<header>
 			<div className="wrap">
 			
@@ -48,8 +50,7 @@ class App extends React.Component{
 			</div>
 			
 			</header>
-			<section>
-
+            <Zj/>
 			</section>
 			<footer className="foot">
 			
